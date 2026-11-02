@@ -5,7 +5,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(args)
         local bufnr = args.buf
         local opts = { buffer = bufnr }
-        
+
         keymap('n', 'K', vim.lsp.buf.hover, opts)
         keymap('n', 'gd', vim.lsp.buf.definition, opts)
         keymap('n', 'gD', vim.lsp.buf.declaration, opts)
@@ -18,5 +18,5 @@ vim.api.nvim_create_autocmd('LspAttach', {
         vim.keymap.set('n', '<leader>f', function()
             vim.lsp.buf.format({ async = true })
         end, opts)
-    end;
+    end,
 })
