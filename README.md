@@ -8,17 +8,21 @@ Estes arquivos contemplam coisas como:
 - Meus plugins (utilizando vim.pack.add)
 - Meus autocmds
 - Minhas configurações básicas para LSPs
+- Minhas configurações do Nvim Tree + Telescope
+- Minhas configurações de autocomplete usando o nvim-cmp
 
 ```bash
 ├── init.lua
 ├── lua
 │   └── config
 │       ├── autocmds.lua
+│       ├── completion.lua
+│       ├── filemanager.lua
 │       ├── keymaps.lua
 │       ├── lsp.lua
 │       └── plugins.lua
 ├── nvim-pack-lock.json
 └── README.md
 
-3 directories, 7 files
+3 directories, 9 files
 ```
