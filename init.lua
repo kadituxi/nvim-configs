@@ -19,7 +19,7 @@ vim.wrap = true
 vim.opt.confirm = true
 vim.opt.autoread = true
 vim.opt.swapfile = false
-vim.opt.autocomplete = true
+vim.opt.title = true
 
 -- Case sensitivity
 vim.opt.ignorecase = true
