@@ -40,4 +40,4 @@ vim.opt.autoindent = true
 vim.opt.clipboard = 'unnamedplus'
 
 -- Tema de cores
-vim.cmd.colorscheme('catppuccin')
+vim.cmd.colorscheme('habamax')
